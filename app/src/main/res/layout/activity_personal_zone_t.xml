@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".activities.PersonalZoneTActivity">
+
+
+    <ImageView
+        android:id="@+id/trainerPic"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="5dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/trainerPicBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="בחר תמונה"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <EditText
+        android:id="@+id/tellAboutYourself"
+        android:layout_width="406dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:text="ספר על עצמך:"
+        android:layout_marginTop="450dp"
+         />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="406dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="תחום מקצועי:"
+        android:layout_marginTop="500dp"
+       />
+
+</RelativeLayout>

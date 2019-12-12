@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/personalZoneBtn"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="איזור אישי"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/reqular_button"
+        android:layout_height="9mm"
+
+        />
+
+    <Button
+        android:id="@+id/costumersListBtn"
+        android:layout_width="200dp"
+        android:layout_marginTop="430dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="9mm"
+        android:text="מתאמנים"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/reqular_button" />
+
+    <Button
+        android:id="@+id/scheduleTrainerBtn"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:layout_height="9mm"
+        android:text="לוח אימונים"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="452dp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/reqular_button"
+        app:layout_constraintVertical_bias="0.994"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="200dp"
+        android:layout_marginTop="290dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="9mm"
+        android:text="מעקב תשלומים"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/reqular_button"
+
+        />
+
+
+</RelativeLayout>

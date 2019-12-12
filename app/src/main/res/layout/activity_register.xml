@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RegisterActivity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="אנא בחר סוג מנוי:"
+        android:textColor="#0B0B0C"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/trainerRegisterBtn"
+        android:layout_width="200dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="4sp"
+        android:layout_height="60dp"
+        android:text="מתאמן"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/coachRegisterBtn"
+        android:layout_marginTop="70dp"
+        android:layout_width="200dp"
+        android:layout_marginLeft="0dp"
+        android:layout_height="60dp"
+        android:text="מאמן"
+        android:textSize="20sp" />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+
+            <RadioGroup
+                android:id="@+id/gender_radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/male_radio_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="זכר"
+                    android:checked="true"
+                    />
+                <RadioButton
+                    android:id="@+id/female_radio_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text = "נקבה"
+                    />
+            </RadioGroup>
+    </LinearLayout>
+
+        <Button android:id="@+id/btn_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="הרשמה"
+            android:background="@drawable/reqular_button"
+            android:layout_marginTop="500dp"
+            android:textColor="@android:color/white"/>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
